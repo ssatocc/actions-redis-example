@@ -12,7 +12,9 @@ def main():
     )
     for _ in range(random.randint(1, 10)):
         count = r.incr("count")
+    print("=== debug")
     print(count)
+    print("=== debug")
 
 
 if __name__ == "__main__":
